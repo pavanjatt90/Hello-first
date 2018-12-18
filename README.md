@@ -1,5 +1,1 @@
-# Hello-first
-Test the github's collabration system
-
-This is branch from master commiting the readme file.
-Thank you.
+# This is the file containing actual C language code 
