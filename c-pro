@@ -1,0 +1,16 @@
+/*My first hello world program*/
+#include<stdio.h>
+int fact(int x);
+int main(void){
+printf("Enter the no n");
+int n,fac;
+scanf("%d",&n);
+fac=fact(n);
+printf("The factorial of n is :%d",fac);
+}
+int fact(int x){
+   if(x=0){
+     x=1;
+   }
+   return x*fact(x-1);
+}
